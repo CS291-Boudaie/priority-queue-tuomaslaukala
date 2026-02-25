@@ -85,12 +85,6 @@ class MinHeap:
             else:
                 break  # Heap property satisfied, stop
 
-    def _bubble_up(self, idx):
-        # TODO: Implement
-        # Keep swapping this node with its parent while it has a smaller priority.
-        # parent index = (idx - 1) // 2
-        # Stop when you reach the root OR parent already has <= priority.
-        pass
 
     def _bubble_down(self, idx):
      while True:
